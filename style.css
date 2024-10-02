@@ -1,0 +1,87 @@
+    body {
+      background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)) , url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+      background-size: cover; /* Resmi tam ekran yapar */
+      background-position: center; /* Resmi ortalar */
+      background-color: #1b1b32cc; /* Opaklık ayarlı arka plan rengi */
+    }
+   .form{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B192C;
+    color: rgb(243, 243, 243);
+    font-family:  Poppins, sans-serif;
+    font-size: 22px;
+    padding: 5px 50px 50px 50px;
+
+    }
+    
+    input,select{
+     
+        height: 35px;
+        border: 1.11111px solid rgb(206, 212, 218);
+        border-radius :4px;
+        margin-top: 6px;     
+      
+    }
+    
+    h1,p{
+    text-align: center;
+    color: #f3f3f3;
+    }
+
+    p{
+      font-style: italic;
+      margin-top: 0;
+      font-size: 18px;
+      font-family: Poppins, sans-serif;
+    }
+
+    h1{
+      font-weight: 400;
+      margin-top: 50px;  
+      font-family: Poppins, sans-serif;     
+      font-style:normal;
+      font-size: 32px;
+      
+      
+    }
+
+    label{
+      display: block;
+      margin: 40px 0;
+      
+    }
+    
+
+    .label-radio  label,
+    .label-checkbox label{
+       margin: 10px 0;
+    }
+
+
+  input[type="checkbox"],input[type="radio"]
+  {
+    width: unset;
+    margin: 0 5px 0 0;
+    display: inline;
+    transform: scale(1.5);
+    vertical-align:middle;
+  }
+
+  select,
+  input,
+  textarea{
+      width: 100%;       
+  }
+
+  input[type="submit"]{
+    margin-top: 0;
+    background-color: #37af65;
+    color:#f3f3f3
+  }
+
+textarea{
+  height: 125px;
+  margin-top: 10px;
+}
